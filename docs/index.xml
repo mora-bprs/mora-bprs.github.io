@@ -1,12 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mora BPRS – Mora BPRS</title>
-    <link>https://example.org/</link>
+    <link>https://mora-bprs.github.io/</link>
     <description>Recent content on Mora BPRS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://mora-bprs.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
       
