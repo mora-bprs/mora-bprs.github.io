@@ -1,7 +1,7 @@
 # Configuration
-# baseURL: "https://mora-bprs.github.io/"
+baseURL: "https://mora-bprs.github.io/"
 title: "Mora BPRS"
-# theme: hextra
+theme: hextra
 
 # import hextra as module
 # module:
