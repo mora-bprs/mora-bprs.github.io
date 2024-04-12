@@ -1,6 +1,17 @@
-# Documentation Site for BPRS Projects
-
-This site holds the documentation for the research and literary reviews done by Mora BPRS.
+---
+authors:
+  - link: https://github.com/SasikaA073
+    name: Sasika
+  - link: https://github.com/thuvasooriya
+    name: Thuva
+date: "2024-03-03"
+draft: false
+tags:
+  - Markdown
+  - Example
+  - Guide
+title: Getting Started
+---
 
 ## Contributing
 

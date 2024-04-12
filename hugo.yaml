@@ -1,5 +1,3 @@
-# languageCode = 'en-us'
-# theme = "hextra"
 # Configuration
 baseURL: "https://mora-bprs.github.io/"
 title: "Mora BPRS"
@@ -17,34 +15,9 @@ enableGitInfo: true
 outputs:
   home: [HTML]
   page: [HTML]
-  section: [HTML, RSS]
+  # section: [HTML, RSS]
 
 # defaultContentLanguage: en
-# languages:
-#   en:
-#     languageName: English
-#     weight: 1
-#     title: Hextra
-#   zh-cn:
-#     languageName: 简体中文
-#     languageCode: zh-CN
-#     weight: 2
-#     title: Hextra
-#   fa:
-#     languageName: فارسی
-#     languageCode: fa
-#     languageDirection: rtl
-#     weight: 3
-#     title: هگزترا
-
-# module:
-#   hugoVersion:
-#     extended: true
-#     min: "0.112.0"
-#
-#   # workspace: hugo.work
-#   imports:
-#     - path: github.com/imfing/hextra
 
 markup:
   goldmark:
@@ -61,10 +34,6 @@ menu:
       name: Documentation
       pageRef: /docs
       weight: 1
-    - identifier: test
-      name: Test
-      pageRef: /test
-      weight: 2
     - identifier: blog
       name: Blog
       pageRef: /blog
@@ -79,20 +48,20 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/imfing/hextra"
+      url: "https://github.com/mora-bprs"
       params:
         icon: github
 
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: "About"
-      pageRef: "/about"
-      weight: 2
+  # sidebar:
+    # - identifier: more
+    #   name: More
+    #   params:
+    #     type: separator
+    #   weight: 1
+    # - identifier: about
+    #   name: About
+    #   pageRef: "/about"
+    #   weight: 2
     # - identifier: hugoDocs
     #   name: "Hugo Docs ↗"
     #   url: "https://gohugo.io/documentation/"
@@ -145,7 +114,7 @@ params:
 
   # editURL:
   #   enable: true
-  #   base: "https://github.com/imfing/hextra/edit/main/exampleSite/content"
+  #   base: "https://github.com/mora-bprs/mora-bprs.github.io/edit/dev/content"
 
   blog:
     list:
