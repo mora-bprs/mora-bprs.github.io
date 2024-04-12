@@ -1,5 +1,4 @@
 ---
-date: "2024-04-12T16:47:24+05:30"
 title: "Mora BPRS"
 layout: hextra-home
 ---
