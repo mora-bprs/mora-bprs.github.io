@@ -1,4 +1,8 @@
-## How to get started
+# Documentation Site for BPRS Projects
+This site holds the documentation for the research and literary reviews done by Mora BPRS.
+
+## Contributing
+- This guide assumes that you have previous experience with handling banches and private repos, if you want a more beginner friendly approach use the github commandline utility `gh` which will setup all the authetications and remote url handling for you.
 
 1. **Clone the Repository:**
    - you should start by cloning the repository to their local machine:
@@ -20,11 +24,9 @@
 4. **Start Editing the Site:**
    - Refer to this [hugo theme documentation](https://imfing.github.io/hextra/docs/) to edit the pages. 
    - You can start editing the Hugo site by modifying the content files located in the `content` directory. They can use Markdown syntax to write content and make changes as needed.
-
-   first create a folder with the slug name in the content folder, then create an index.md file in that folder and write the content in it.
+   - First create a folder with the slug name in the content folder, then create an index.md file in that folder and write the content in it.
 
    template for index.md file:
-
    ```markdown
    ---
    title: "Title of the page"
@@ -44,6 +46,7 @@
    ## Sample Markdown content
 
    Here write the content of the page in markdown syntax.
+   ```markdown
    ```
 
 5. **Preview Changes Locally:**
@@ -74,6 +77,7 @@
 
    - If this is not your first time working with `dev` branch do the following. 
    - After making changes, you should commit their changes to the "dev" branch:
+   - When multiple people are working it is recommended to create a branch using your name or something unique to your team and commit to that branch to avoid merge conflicts and remote HEAD conflicts.
 
      ```shell
      git checkout dev
@@ -81,3 +85,5 @@
      git commit -m "Description of changes made"
      git push origin dev
      ```
+     ### Acknowledgments
+     - Site initially forked from [https://github.com/imfing/hextra]
