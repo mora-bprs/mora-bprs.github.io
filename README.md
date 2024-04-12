@@ -2,7 +2,33 @@
 
 This site holds the documentation for the research and literary reviews done by Mora BPRS.
 
-## Contributing
+## Get Started Now
+1. **Instll Hugo** - [official Hugo website](https://gohugo.io/installation/).
+2. **Clone with submodules and navigate**
+   ```shell
+   git clone --recurse-submodules https://github.com/mora-bprs/mora-bprs.github.io.git && cd mora-bprs.github.io
+   #or
+   gh repo clone mora-bprs/mora-bprs.github.io -- --recurse-submodules && cd mora-bprs.github.io
+   ```
+3. **Create a branch**
+     ```shell
+     git checkout -b <newbranchname>
+     # example: git checkout -b thuva
+     ```
+4. **Make changes and Push**
+    - edit files inside `docs/` directory referring [hugo theme documentation](https://imfing.github.io/hextra/docs/) 
+    - check using the following command, locally hosted in `localhost:1313`
+    ```shell
+    hugo server -D
+    ```
+    - upload your changes to repo when you are confident and make a pull request
+    ```shell
+    git add .
+    git commit -m "Description of changes made"
+    git push origin <remotebranchname>
+    ```
+
+## Detailed Guide
 
 - This guide assumes that you have previous experience with handling banches and private repos, if you want a more beginner friendly approach use the github commandline utility `gh` which will setup all the authetications and remote url handling for you.
 - We are using the `hextra` template for our documentation site. And choosing the git submodule route to install the theme.
