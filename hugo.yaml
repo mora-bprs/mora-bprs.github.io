@@ -1,7 +1,12 @@
 # Configuration
 baseURL: "https://mora-bprs.github.io/"
 title: "Mora BPRS"
-theme: hextra
+# theme: hextra
+
+# import hextra as module
+module:
+  imports:
+  - path: github.com/imfing/hextra
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -68,8 +73,7 @@ menu:
     #   weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
-
+  description: Documentation site for Mora BPRS Project
   navbar:
     displayTitle: true
     displayLogo: true
@@ -91,7 +95,7 @@ params:
     displayToggle: true
 
   footer:
-    enable: true
+    enable: false
     displayCopyright: false
     displayPoweredBy: false
     width: normal
