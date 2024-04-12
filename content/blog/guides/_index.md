@@ -1,16 +1,16 @@
 ---
 authors:
-  - link: https://github.com/SasikaA073
-    name: Sasika
-  - link: https://github.com/thuvasooriya
-    name: Thuva
-date: "2024-03-03"
+  - name: Sasika
+    link: https://github.com/SasikaA073
+  - name: Thuva
+    link: https://github.com/thuvasooriya
+date: "2024-04-12"
 draft: false
 tags:
   - Markdown
   - Example
   - Guide
-title: Getting Started
+title: "Getting Started"
 ---
 
 ## Contributing

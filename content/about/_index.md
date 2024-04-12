@@ -21,6 +21,6 @@ The project is being carried out by a dedicated team of seven students, each bri
 7. **Sasika Amarasinghe** (SasikaA073)
 8. **Thuvaragan Sooriyakumaran** (thuvasooriya)
 
-Under the guidance of our supervisors, we are working tirelessly to integrate computer vision algorithms, robotic control systems, and mechanical design to create a fully functional bin picking solution. Our goal is to develop a system that can be applied in various industrial settings, improving efficiency and automation in material handling processes.
+Under the guidance of our supervisor, we are working tirelessly to integrate computer vision algorithms, robotic control systems, and mechanical design to create a fully functional bin picking solution. Our goal is to develop a system that can be applied in various industrial settings, improving efficiency and automation in material handling processes.
 
 We are constantly striving to push the boundaries of what is possible, and we are excited to share our progress and insights with the wider community. Stay tuned for updates and feel free to reach out to us if you have any questions or would like to collaborate.

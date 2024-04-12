@@ -3,11 +3,6 @@ baseURL: "https://mora-bprs.github.io/"
 title: "Mora BPRS"
 theme: hextra
 
-# import hextra as module
-# module:
-#   imports:
-#   - path: github.com/imfing/hextra
-
 enableRobotsTXT: true
 enableGitInfo: true
 # enableEmoji: false
@@ -96,7 +91,7 @@ params:
 
   footer:
     enable: false
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: false
     width: normal
 
