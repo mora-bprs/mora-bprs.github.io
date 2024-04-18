@@ -1,32 +1,43 @@
 # Documentation Site for BPRS Projects
 
-This site holds the documentation for the research and literary reviews done by Mora BPRS.
+This website holds the complete software and design process documentation for prjects done by mora-bprs team.
+
+# Instructions for team contributers
 
 ## Get Started Now
-1. **Instll Hugo** - [official Hugo website](https://gohugo.io/installation/).
-2. **Clone with submodules and navigate**
+
+1. **Install Hugo to your respective platform** - [official Hugo website](https://gohugo.io/installation/).
+2. **Git Clone with submodules and navigate**
+
    ```shell
    git clone --recurse-submodules https://github.com/mora-bprs/mora-bprs.github.io.git && cd mora-bprs.github.io
-   #or
+   # or
    gh repo clone mora-bprs/mora-bprs.github.io -- --recurse-submodules && cd mora-bprs.github.io
    ```
-3. **Create a branch**
-     ```shell
-     git checkout -b <newbranchname>
-     # example: git checkout -b thuva
-     ```
+
+3. **Create a git branch if you haven't already**
+
+   ```shell
+   git checkout -b <newbranchname>
+   # example: git checkout -b thuva
+
+   # if you already have a recommended branch to work on just checkout
+   git checkout <branchname>
+   ```
+
 4. **Make changes and Push**
-    - edit files inside `docs/` directory referring [hugo theme documentation](https://imfing.github.io/hextra/docs/) 
-    - check using the following command, locally hosted in `localhost:1313`
-    ```shell
-    hugo server -D
-    ```
-    - upload your changes to repo when you are confident and make a pull request
-    ```shell
-    git add .
-    git commit -m "Description of changes made"
-    git push origin <remotebranchname>
-    ```
+   - edit files inside `docs/` directory referring [hugo theme documentation](https://imfing.github.io/hextra/docs/)
+   - verify your changes in the site using the following command, locally hosted in `localhost:1313`
+   ```shell
+   hugo server -D
+   ```
+   - upload your changes to repo when you are confident and make a pull request
+   ```shell
+   git add .
+   git commit -m "Description of changes made"
+   git push origin <remotebranchname>
+   ```
+   - some tips: if you are still editing the file and don't want it to show up on the site set draft = true in the header of the md file.
 
 ## Detailed Guide
 
