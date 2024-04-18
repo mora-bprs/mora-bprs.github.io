@@ -5,3 +5,14 @@ weight: 1
 next: /docs/sam
 prev: /docs
 ---
+
+## Content for the page
+
+- Python
+- Pytorch
+- Jupyter Notebooks
+- VS Code
+- Segmentation Models
+- Bin Picking
+
+- Can move some into Blog as articles and focus more on neural networks in this page.

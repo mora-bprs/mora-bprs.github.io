@@ -4,16 +4,19 @@ title: "Introduction"
 linkTitle: "Documentation"
 ---
 
-👋 Hi! Welcome to the Vision Based Bin Picking documentation!
+👋 Hi! Welcome!
 
 <!--more-->
 
 ## What is Mora BPRS?
-Mora BPRS Documentation is a comprehensive resource for understanding and implementing Bin Picking Robotic Systems (BPRS) based on various Computer Vision Neural Networks like UNet, SegNet, DeepLab, ENet, CornerNet, and SAM (Segment Anything Model).
+
+Mora BPRS Documentation is a comprehensive resource for understanding and implementing Bin Picking Robotic Systems (BPRS) based on various Computer Vision Neural Networks. like UNet, SegNet, DeepLab, ENet, CornerNet, and SAM (Segment Anything Model).
+For now we are experim
 This documentation provides a modern, fast, and feature-rich platform for documenting the intricacies of BPRS, leveraging the power of cutting-edge technologies and best practices.
 
 ## Features
- - **Intuitive Design** - Inspired by modern documentation platforms, Mora BPRS Documentation utilizes a clean and visually appealing layout, making it easy to navigate and understand complex concepts.
+
+- **Intuitive Design** - Inspired by modern documentation platforms, Mora BPRS Documentation utilizes a clean and visually appealing layout, making it easy to navigate and understand complex concepts.
 - **Responsive Layout and Dark Mode** - The documentation is optimized for various devices, from mobile to desktop, ensuring a seamless reading experience. Dark mode support caters to different lighting conditions and personal preferences.
 - **Fast and Lightweight** - Built with a static site generator, Mora BPRS Documentation is designed to be lightning-fast and highly performant, ensuring a smooth browsing experience.
 - **Comprehensive Content** - The documentation covers a wide range of topics related to BPRS, including detailed explanations of various Computer Vision Neural Networks, their applications, implementation details, and best practices.
