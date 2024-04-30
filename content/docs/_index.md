@@ -2,6 +2,7 @@
 date: "2024-04-12T14:12:19+05:30"
 title: "Introduction"
 linkTitle: "Documentation"
+next: /docs/getting-started
 ---
 
 👋 Hi! Welcome!
@@ -28,17 +29,13 @@ By leveraging Mora BPRS Documentation, you'll gain a comprehensive understanding
 
 {{< callout emoji="❓" >}}
 This project is still in active development.
-Have a question or feedback? Feel free to [open an issue](https://github.com/mora-bprs/enet/issues)!
+Have a question or feedback? Feel free to [open an issue](https://github.com/mora-bprs/mora-bprs.github.io/issues)!
 {{< /callout >}}
 
-## Next
+<!-- ## Next -->
+<!---->
+<!-- Dive right into the following section to get started: -->
 
-Dive right into the following section to get started:
-
-{{< cards >}}
-{{< card link="getting-started" title="Getting Started" icon="document-text" subtitle="Learn how to create neural network models" >}}
-{{< /cards >}}
-
-[hugo]: https://gohugo.io/
-[flex-search]: https://github.com/nextapps-de/flexsearch
-[tailwind-css]: https://tailwindcss.com/
+<!-- {{< cards >}} -->
+<!-- {{< card link="getting-started" title="Getting Started" icon="document-text" subtitle="Learn how to create neural network models" >}} -->
+<!-- {{< /cards >}} -->
